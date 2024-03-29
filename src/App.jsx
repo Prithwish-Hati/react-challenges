@@ -1,4 +1,5 @@
 import './App.css'
+import ColorPicker from './components/ColorPicker'
 import Counter from './components/Counter'
 import DynamicList from './components/DynamicList'
 
@@ -9,6 +10,7 @@ function App() {
       <h1 className='text-4xl font-bold my-8'>React Challenges</h1>
       <Counter />
       <DynamicList />
+      <ColorPicker />
     </main>
   )
 }

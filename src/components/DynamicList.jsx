@@ -20,8 +20,8 @@ const DynamicList = () => {
     return (
         <section className='my-8'>
             <h2 className='text-3xl font-semibold'>📝 Dynamic List of Items with Strikethrough</h2>
-            <p>Build a React application that displays a dynamic list of items. Each item should have its own text and the ability to be crossed out through a strike-through effect when clicked. Users should be able to add new items to the list and clear all existing items at once.</p>
-            <input type='text' className='border-2 border-royal-blue mt-4 w-4/12' ref={myInput} />
+            <p className='mt-4'>Build a React application that displays a dynamic list of items. Each item should have its own text and the ability to be crossed out through a strike-through effect when clicked. Users should be able to add new items to the list and clear all existing items at once.</p>
+            <input type='text' className='border-2 border-royal-blue mt-6 w-4/12' ref={myInput} />
             <button className='ml-4 border-2 border-royal-blue shadow-mini px-2' onClick={handleAdd}>Add</button>
             <button className='ml-4 border-2 border-royal-blue shadow-mini px-2' onClick={handleClear}>Clear</button>
             {listItems.length > 0 &&
