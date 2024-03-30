@@ -2,6 +2,7 @@ import './App.css'
 import ColorPicker from './components/ColorPicker'
 import Counter from './components/Counter'
 import DynamicList from './components/DynamicList'
+import PasswordChecker from './components/PasswordChecker'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Counter />
       <DynamicList />
       <ColorPicker />
+      <PasswordChecker />
     </main>
   )
 }
