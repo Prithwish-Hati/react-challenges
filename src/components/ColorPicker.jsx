@@ -13,7 +13,7 @@ const ColorPicker = () => {
             <p className='mt-4'>
                 Develop a React application that features a color picker component. Users should be able to select a color from the picker, and the corresponding hexadecimal (hex) code of the chosen color should be displayed prominently on the screen.
             </p>
-            <div className='mt-4 flex gap-4 border-2 border-royal-blue p-2 w-fit'>
+            <div className='mt-4 flex gap-4 border-2 border-my-blue p-2 w-fit'>
                 <label>
                     Pick a Color:
                 </label>
