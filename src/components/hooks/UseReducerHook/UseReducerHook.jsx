@@ -5,7 +5,7 @@ import GrandChildOf2 from './GrandChildOf2'
 
 const UseReducerHook = () => {
     return (
-        <section className='my-8 w-full'>
+        <section className='my-8 w-full pb-10 border-b-2 border-my-purple'>
             <hgroup>
                 <h2 className='text-3xl font-semibold'>🧨useReducer() Hook Usecase</h2>
                 <p className='mt-2'>Why do we need useReducer()?</p>

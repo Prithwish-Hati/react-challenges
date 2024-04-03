@@ -9,6 +9,7 @@ import UseCallbackHook from './components/hooks/UseCallbackHook'
 import UseContextHook from './components/hooks/useContext/UseContextHook'
 import UseMemoHook from './components/hooks/UseMemoHook'
 import UseReducerHook from './components/hooks/UseReducerHook/UseReducerHook'
+import ReduxCounter from './components/ReduxCounter'
 
 function App() {
 
@@ -23,8 +24,9 @@ function App() {
       <DynamicMovieList /> */}
       {/* <UseMemoHook /> */}
       {/* <UseCallbackHook /> */}
-      <UseContextHook />
-      <UseReducerHook />
+      {/* <UseContextHook /> */}
+      {/* <UseReducerHook /> */}
+      <ReduxCounter />
     </main>
   )
 }

@@ -7,10 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        'my-red': '#ff595e',
+        'my-red': '#f28482',
         'my-yellow': '#ffca3a',
         'my-green': '#8ac926',
-        'my-blue': '#1982c4',
+        'my-blue': '#a2d2ff',
         'my-purple': '#6a4c93',
       },
       boxShadow: {
