@@ -14,6 +14,9 @@ import RToolkitCounter from './components/redux-toolkit/RToolkitCounter'
 import UseStateHook from './components/hooks/UseStateHook'
 import useCounter from './components/hooks/custom/useCounter'
 import { useCounter1 } from './components/hooks/custom/useCounter1'
+import UseEffectHook from './components/hooks/UseEffectHook'
+import UseReducerHook1 from './components/hooks/UseReducerHook1'
+import Accordion from './components/accordion/Accordion'
 
 
 function App() {
@@ -35,8 +38,11 @@ function App() {
       {/* <ReduxCounter /> */}
       {/* <RToolkitCounter /> */}
       {/* <UseStateHook /> */}
+      {/* <UseEffectHook /> */}
+      {/* <UseReducerHook1 /> */}
       {/* {counter} */}
       {/* {counter1} */}
+      <Accordion />
     </main>
   )
 }
