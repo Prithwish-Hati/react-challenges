@@ -1,4 +1,3 @@
-import "./App.css";
 import ColorPicker from "./components/ColorPicker";
 import CountDown from "./components/CountDown";
 import Counter from "./components/Counter";
@@ -18,6 +17,8 @@ import UseEffectHook from "./components/hooks/UseEffectHook";
 import UseReducerHook1 from "./components/hooks/UseReducerHook1";
 import Accordion from "./components/accordion/Accordion";
 import AnagramChecker from "./components/AnagramChecker/AnagramChecker";
+import ThemeToggler from "./components/ThemeToggler/ThemeToggler";
+import TableColorizer from "./components/TableColorizer/TableColorizer";
 
 function App() {
   // const counter = useCounter(0, 1)
@@ -25,7 +26,9 @@ function App() {
   return (
     <main className="max-w-[1440px] w-full flex flex-col items-center px-16">
       <h1 className="text-4xl font-bold my-8">React Challenges</h1>
+      <TableColorizer />
       <AnagramChecker />
+      <ThemeToggler />
       {/* <Counter />
       <DynamicList />
       <ColorPicker />
