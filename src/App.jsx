@@ -20,6 +20,9 @@ import AnagramChecker from "./components/AnagramChecker/AnagramChecker";
 import ThemeToggler from "./components/ThemeToggler/ThemeToggler";
 import TableColorizer from "./components/TableColorizer/TableColorizer";
 import Pagination from "./components/pagination/Pagination";
+import FileExplorer from "./components/File Explorer/FileExplorer";
+import PasswordGenerator from "./components/PasswordGenerator/PasswordGenerator";
+import ImageGallery from "./components/ImageGallery/ImageGallery";
 
 function App() {
   // const counter = useCounter(0, 1)
@@ -27,7 +30,10 @@ function App() {
   return (
     <main className="max-w-[1440px] w-full flex flex-col items-center px-16">
       <h1 className="text-4xl font-bold my-8">React Challenges</h1>
-      <Pagination />
+      <ImageGallery />
+      {/* <PasswordGenerator /> */}
+      {/* <FileExplorer /> */}
+      {/* <Pagination /> */}
       {/* <TableColorizer /> */}
       {/* <AnagramChecker /> */}
       {/* <ThemeToggler /> */}
