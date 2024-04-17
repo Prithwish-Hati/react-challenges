@@ -24,6 +24,8 @@ import FileExplorer from "./components/File Explorer/FileExplorer";
 import PasswordGenerator from "./components/PasswordGenerator/PasswordGenerator";
 import ImageGallery from "./components/ImageGallery/ImageGallery";
 import QRCodeGenerator from "./components/QRCodeGenerator/QRCodeGenerator";
+import GuessTheNumber from "./components/GuessTheNumber/GuessTheNumber";
+import Stack from "./components/Stack/Stack";
 
 function App() {
   // const counter = useCounter(0, 1)
@@ -56,7 +58,9 @@ function App() {
       {/* {counter} */}
       {/* {counter1} */}
       {/* <Accordion /> */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+      {/* <GuessTheNumber /> */}
+      <Stack />
     </main>
   );
 }
