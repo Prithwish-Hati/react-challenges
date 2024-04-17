@@ -23,6 +23,7 @@ import Pagination from "./components/pagination/Pagination";
 import FileExplorer from "./components/File Explorer/FileExplorer";
 import PasswordGenerator from "./components/PasswordGenerator/PasswordGenerator";
 import ImageGallery from "./components/ImageGallery/ImageGallery";
+import QRCodeGenerator from "./components/QRCodeGenerator/QRCodeGenerator";
 
 function App() {
   // const counter = useCounter(0, 1)
@@ -36,7 +37,7 @@ function App() {
       {/* <Pagination /> */}
       {/* <TableColorizer /> */}
       {/* <AnagramChecker /> */}
-      <ThemeToggler />
+      {/* <ThemeToggler /> */}
       {/* <Counter />
       <DynamicList />
       <ColorPicker />
@@ -54,7 +55,8 @@ function App() {
       {/* <UseReducerHook1 /> */}
       {/* {counter} */}
       {/* {counter1} */}
-      <Accordion />
+      {/* <Accordion /> */}
+      <QRCodeGenerator />
     </main>
   );
 }
