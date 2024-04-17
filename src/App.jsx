@@ -27,6 +27,7 @@ import QRCodeGenerator from "./components/QRCodeGenerator/QRCodeGenerator";
 import GuessTheNumber from "./components/GuessTheNumber/GuessTheNumber";
 import Stack from "./components/Stack/Stack";
 import WordCounter from "./components/WordCounter/WordCounter";
+import TempConverter from "./components/TempConverter/TempConverter";
 
 function App() {
   // const counter = useCounter(0, 1)
@@ -62,7 +63,8 @@ function App() {
       {/* <QRCodeGenerator /> */}
       {/* <GuessTheNumber /> */}
       {/* <Stack /> */}
-      <WordCounter />
+      {/* <WordCounter /> */}
+      <TempConverter />
     </main>
   );
 }
