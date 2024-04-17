@@ -37,7 +37,7 @@ const ImageGallery = () => {
       {imgURL.length > 0 && (
         <img
           src={imgURL}
-          className="w-96 h-96 object-cover rounded-2xl shadow-2xl mx-auto mt-10"
+          className="w-96 h-96 object-cover rounded-2xl shadow-2xl mx-auto my-10"
         />
       )}
     </section>
