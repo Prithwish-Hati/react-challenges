@@ -28,6 +28,9 @@ import GuessTheNumber from "./components/GuessTheNumber/GuessTheNumber";
 import Stack from "./components/Stack/Stack";
 import WordCounter from "./components/WordCounter/WordCounter";
 import TempConverter from "./components/TempConverter/TempConverter";
+import StarRating from "./components/StarRating/StarRating";
+import TodoBoard from "./components/TodoBoard/TodoBoard";
+import Panel from "./components/session/Panel";
 
 function App() {
   // const counter = useCounter(0, 1)
@@ -35,6 +38,7 @@ function App() {
   return (
     <main className="max-w-[1440px] w-full flex flex-col items-center px-16">
       <h1 className="text-4xl font-bold my-8">React Challenges</h1>
+
       {/* <ImageGallery /> */}
       {/* <PasswordGenerator /> */}
       {/* <FileExplorer /> */}
@@ -64,7 +68,10 @@ function App() {
       {/* <GuessTheNumber /> */}
       {/* <Stack /> */}
       {/* <WordCounter /> */}
-      <TempConverter />
+      {/* <TempConverter /> */}
+      {/* <StarRating onMouseEnter={handleMouseEnter}/> */}
+      {/* <TodoBoard /> */}
+      <Panel />
     </main>
   );
 }
