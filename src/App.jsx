@@ -30,11 +30,12 @@ import WordCounter from "./components/WordCounter/WordCounter";
 import TempConverter from "./components/TempConverter/TempConverter";
 import StarRating from "./components/StarRating/StarRating";
 import TodoBoard from "./components/TodoBoard/TodoBoard";
-import Panel from "./components/session/Panel";
+import { TicTacToe } from "./components/TicTacToe/TicTacToe";
 
 function App() {
   // const counter = useCounter(0, 1)
   // const counter1 = useCounter1(5, 2)
+
   return (
     <main className="max-w-[1440px] w-full flex flex-col items-center px-16">
       <h1 className="text-4xl font-bold my-8">React Challenges</h1>
@@ -69,9 +70,9 @@ function App() {
       {/* <Stack /> */}
       {/* <WordCounter /> */}
       {/* <TempConverter /> */}
-      {/* <StarRating onMouseEnter={handleMouseEnter}/> */}
+      {/* <StarRating /> */}
       {/* <TodoBoard /> */}
-      <Panel />
+      <TicTacToe />
     </main>
   );
 }
